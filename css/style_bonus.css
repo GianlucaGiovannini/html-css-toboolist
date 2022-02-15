@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+
+}
+
+/***************
+global
+***************/
+:root {
+    --global-color: #FFFFFF;
+    --bg-body-color: lightgrey;
+    --add-task-color: #2ce614;
+    --add-section-text-color: #962dc0;
+    --title-section-color: #2561d1;
+    --button-text-color: #EDF9FE;
+    --button-editorial-color: #f8279a;
+    --button-q1-goal-color: #66d0fa;
+    --button-recruiting-color: #2cc640;
+    --button-mobile-color: #d62424;
+    --button-website-color: #b605ec;
+    --button-sales-color: #0e709e;
+    --text-taskes-color: #474C55;
+    --flag-false-color: #000000;
+    --flag-true-color: #2bff00;
+}
+
+.text-padding {
+    padding-left: 5rem;
+}
+
+/***************
+tag
+***************/
+body {
+    background-color: var(--bg-body-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    display: inline-block;
+}
+
+
+/***************
+header
+***************/
+.to-do-logo {
+    background-color: var(--global-color);
+    margin-bottom: 4rem;
+}
+
+.img-logo {
+    height: 5rem;
+    vertical-align: middle;
+    margin-left: 1rem;
+    padding: 5px;
+}
+
+.text-logo {
+    display: inline-block;
+    font-size: 3rem;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+/***************
+main 
+***************/
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+/* header main */
+.header_main {
+    background-color: var(--global-color);
+    border-radius: 10px 10px 0 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+}
+
+.add-task {
+    background-color: var(--add-task-color);
+    color: white;
+    border-radius: 8px;
+    border-style: none;
+    padding: 12px 24px;
+}
+
+.add-section {
+    background-color: var(--global-color);
+    border: 0.1px solid var(--add-section-text-color);
+    color: var(--add-section-text-color);
+    border-radius: 8px;
+    padding: 14px 24px;
+    margin-left: 10px;
+}
+
+/* section task */
+.section-task {
+    background-color: var(--global-color);
+}
+.title-section {
+    color: var(--title-section-color);
+    padding-top: 2rem;
+}
+
+.taskes {
+    color: var(--text-taskes-color);
+    font-size: 1.2rem;
+    line-height: 2.5;
+    margin-top: 0.5rem;
+}
+
+.circle-true {
+    color: var(--flag-true-color);
+    border: 1px solid var(--flag-true-color);
+    padding: 1px 4px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    margin-right: 0.6rem;
+}
+.circle-false {
+    color: var(--flag-false-color);
+    border: 1px solid var(--flag-false-color);
+    padding: 1px 6px 2px 6px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    margin-right: 0.6rem;
+}
+
+.button-taskes {
+    border: none;
+    border-radius: 15px;
+    padding: 11px 22px;
+    color: var(--button-text-color);
+}
+
+.last-padding {
+    padding-bottom: 3rem;
+    margin-bottom: 2rem;
+}
+
+#b-editorial {
+    background-color: var(--button-editorial-color)
+}
+
+#b-goals {
+    background-color: var(--button-q1-goal-color)
+}
+
+#b-recruiting {
+    background-color: var(--button-recruiting-color)
+}
+
+#b-mobile {
+    background-color: var(--button-mobile-color)
+}
+
+#b-website {
+    background-color: var(--button-website-color)
+}
+
+#b-sales {
+    background-color: var(--button-sales-color)
+}
