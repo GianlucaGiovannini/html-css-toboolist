@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html-css-toboolist</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <!------------------
         css bonus 
     ------------------->
-    <!-- <link rel="stylesheet" href="./css/style_bonus.css"> -->
+    <link rel="stylesheet" href="./css/style_bonus.css">
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,90 +24,87 @@
         </h1>
     </header>
     <!-- /.logo_todo -->
-    <main class="container">
-        <header class="header_main text-padding">
-            <buttom class="add-task">Add Task</buttom>
-            <button class="add-section">Add Section</button>
-        </header>
-        <!-- /.header_main -->
 
-        <section class="section-task text-padding"> 
-            <div class="title-section">
-                <span>&#9660;</span>
-                <h2>New Task</h2>
-            </div>
-            <!-- /.title-section -->
-            <div class="taskes">
-                <span class="circle-true">✓</span>
-                <span> Quarterly newsletter</span>
-                <button id="b-editorial" class="button-taskes">Editorial</button>
-            </div>
-            <!-- /.taskes -->    
-        </section>
-        <!-- /.section-task -->
+    <main>
+        <div class="container1">
+            <header class="header_main">
+                <buttom class="add-task">Add Task</buttom>
+                <button class="add-section">Add Section</button>
+            </header>
+             <!-- /.header_main -->
+        </div>
+        
+        <div class="container2">
+            <section>
+                <ul>
+                    <li class="title-list">
+                        <span>&#9660;</span>
+                        <h2>New Task</h2>                  
+                    </li>
+                    <li class="li-margin">
+                        <span class="circle-true">✓</span>
+                        <span> Quarterly Newsletter</span>
+                        <button id="b-editorial" class="button-taskes">Editorial</button>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li class="title-list">
+                        <span>&#9660;</span>
+                        <h2>Today</h2>                  
+                    </li>
+                    <li class="li-margin">
+                        <span class="circle-true">✓</span>
+                        <span> Recruiting blog post</span>
+                        <button id="b-editorial" class="button-taskes">Editorial</button>
+                    </li>
+                    <li class="li-margin">
+                        <span class="circle-true">✓</span>
+                        <span> Recruiting blog post</span>
+                        <button id="b-goals" class="button-taskes">Q1 Goals</button>
+                    </li>
+                    <li class="li-margin">
+                        <span class="circle-false">x</span>
+                        <span> Interview John H</span>
+                        <button id="b-recruiting" class="button-taskes">Recruiting</button>
+                    </li>
+                    <li class="li-margin">
+                        <span class="circle-true">✓</span>
+                        <span> Summit update to mobile storefronts</span>
+                        <button id="b-mobile" class="button-taskes">Mobile</button>
+                    </li>
+                </ul>
 
-        <section class="section-task text-padding"> 
-            <div class="title-section">
-                <span>&#9660;</span>
-                <h2>Today</h2>
-            </div>
-            <!-- /.title-section -->
-            <div class="taskes">
-                <span class="circle-true">✓</span>
-                <span> Recruiting blog post</span>
-                <button id="b-editorial" class="button-taskes">Editorial</button>
-            </div>
-            <!-- /.taskes -->  
-            <div class="taskes">
-                <span class="circle-true">✓</span>
-                <span> Mobile app launch</span>
-                <button id="b-goals" class="button-taskes">Ql Goals</button>
-            </div>
-            <div class="taskes">
-                <span class="circle-false">x</span>
-                <span> Interview John H.</span>
-                <button id="b-recruiting" class="button-taskes">Recruiting</button>
-            </div>
-            <div class="taskes">
-                <span class="circle-true">✓</span>
-                <span> Summit update to mobile storefrons</span>
-                <button id="b-mobile" class="button-taskes">Mobile</button>
-            </div>  
-        </section>
-        <!-- /.section-task -->
-
-        <section class="section-task text-padding last-padding"> 
-            <div class="title-section">
-                <span>&#9660;</span>
-                <h2>Upcoming</h2>
-            </div>
-            <!-- /.title-section -->
-            <div class="taskes">
-                <span class="circle-false">x</span>
-                <span> Schedule meeting with Alex</span>
-            </div>
-            <!-- /.taskes -->  
-            <div class="taskes">
-                <span class="circle-true">✓</span>
-                <span> Hompage refresh</span>
-                <button id="b-website" class="button-taskes">Website</button>
-            </div>
-            <div class="taskes">
-                <span class="circle-true">✓</span>
-                <span> Onboard new Sales team members</span>
-                <button id="b-sales" class="button-taskes">Sales</button>
-            </div>
-            <div class="taskes">
-                <span class="circle-true">✓</span>
-                <span> Review editorial calendar</span>
-                <button id="b-editorial" class="button-taskes">Editorial</button>
-            </div>  
-        </section>
-        <!-- /.section-task -->
-
+                <ul>
+                    <li class="title-list">
+                        <span>&#9660;</span>
+                        <h2>Upcoming</h2>                  
+                    </li>
+                    <li class="li-margin">
+                        <span class="circle-false">x</span>
+                        <span> Schedule meeting with Alex</span>
+                    </li>
+                    <li class="li-margin">
+                        <span class="circle-true">✓</span>
+                        <span> Homepage refresh</span>
+                        <button id="b-website" class="button-taskes">Website</button>
+                    </li>
+                    <li class="li-margin">
+                        <span class="circle-true">✓</span>
+                        <span> Onboard new Sales team members</span>
+                        <button id="b-sales" class="button-taskes">Sales</button>
+                    </li>
+                    <li class="li-margin">
+                        <span class="circle-true">✓</span>
+                        <span> Review editorial calendar</span>
+                        <button id="b-editorial" class="button-taskes">Editorial</button>
+                    </li>
+                </ul>
+            </section>
+        </div>
 
     </main>
-    <!-- /.container -->
 
     
 </body>

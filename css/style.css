@@ -24,9 +24,6 @@ global
     --flag-true-color: #30C7AD;
 }
 
-.text-padding {
-    padding-left: 5rem;
-}
 
 /***************
 tag
@@ -36,10 +33,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
 h2 {
     display: inline-block;
 }
-
 
 /***************
 header
@@ -66,9 +68,13 @@ header
 /***************
 main 
 ***************/
-.container {
+.container1 {
     width: 70%;
     margin: auto;
+    background-color: var(--global-color);
+    border-radius: 10px 10px 0 0 ;
+    padding-left: 4rem;
+    margin-bottom: 10px;
 }
 
 /* header main */
@@ -77,7 +83,6 @@ main
     border-radius: 10px 10px 0 0;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-bottom: 5px;
 }
 
 .add-task {
@@ -97,20 +102,11 @@ main
     margin-left: 10px;
 }
 
-/* section task */
-.section-task {
-    background-color: var(--global-color);
-}
-.title-section {
-    color: var(--title-section-color);
-    padding-top: 2rem;
-}
+/* list section */
 
-.taskes {
-    color: var(--text-taskes-color);
-    font-size: 1.2rem;
-    line-height: 2.5;
-    margin-top: 0.5rem;
+
+.title-list {
+    color: var(--title-section-color);
 }
 
 .circle-true {
@@ -137,11 +133,26 @@ main
     color: var(--button-text-color);
 }
 
-.last-padding {
-    padding-bottom: 3rem;
-    margin-bottom: 2rem;
-    border-radius: 0 0 10px 10px;
+.li-margin {
+    margin: 10px 0;
+ }
+
+
+
+
+.container2 {
+   width: 70%;
+   margin: auto;
+   background-color: var(--global-color);
+   border-radius: 0 0 10px 10px;
+   padding-left: 4rem;
+   padding-top: 2rem;
+   padding-bottom: 0.4rem;
 }
+
+/***************
+button color
+***************/
 
 #b-editorial {
     background-color: var(--button-editorial-color)
