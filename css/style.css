@@ -109,6 +109,7 @@ main
 .taskes {
     color: var(--text-taskes-color);
     font-size: 1.2rem;
+    line-height: 2.5;
     margin-top: 0.5rem;
 }
 
@@ -123,7 +124,7 @@ main
 .circle-false {
     color: var(--flag-false-color);
     border: 1px solid var(--flag-false-color);
-    padding: 1px 4px;
+    padding: 1px 6px 2px 6px;
     border-radius: 50%;
     font-size: 0.8rem;
     margin-right: 0.6rem;
@@ -134,6 +135,11 @@ main
     border-radius: 15px;
     padding: 11px 22px;
     color: var(--button-text-color);
+}
+
+.last-padding {
+    padding-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 #b-editorial {
