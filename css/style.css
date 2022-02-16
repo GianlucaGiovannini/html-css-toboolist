@@ -154,27 +154,27 @@ main
 button color
 ***************/
 
-#b-editorial {
+.b-editorial {
     background-color: var(--button-editorial-color)
 }
 
-#b-goals {
+.b-goals {
     background-color: var(--button-q1-goal-color)
 }
 
-#b-recruiting {
+.b-recruiting {
     background-color: var(--button-recruiting-color)
 }
 
-#b-mobile {
+.b-mobile {
     background-color: var(--button-mobile-color)
 }
 
-#b-website {
+.b-website {
     background-color: var(--button-website-color)
 }
 
-#b-sales {
+.b-sales {
     background-color: var(--button-sales-color)
 }
 
